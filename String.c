@@ -8,7 +8,7 @@ UINT size = 1;
 
 string getString()
 {
-    string str = (string)malloc(sizeof(string));
+    string str = (string)malloc(sizeof(char));
 	  while ((str[i++]=getche())!='\r')//_getche for visual studio
 	  {
 		  str = (string)realloc(str, ++size);
